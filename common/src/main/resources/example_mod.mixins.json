@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.example.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "minVersion": "0.8",
+  "client": [
+    "IntegratedServerMixin"
+  ],
+  "mixins": [
+    "PrimaryLevelDataMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

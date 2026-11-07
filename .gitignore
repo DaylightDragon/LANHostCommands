@@ -6,3 +6,6 @@ neoforge/build
 neoforge/run
 fabric/build
 fabric/run
+common/.gradle
+neoforge/.gradle
+fabric/.gradle

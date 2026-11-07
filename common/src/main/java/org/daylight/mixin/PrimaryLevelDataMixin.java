@@ -1,6 +1,6 @@
-package com.example.mixin;
+package org.daylight.mixin;
 
-import com.example.formixins.ICommandStateHolder;
+import org.daylight.formixins.ICommandStateHolder;
 import net.minecraft.world.level.storage.PrimaryLevelData;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;

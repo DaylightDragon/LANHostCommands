@@ -1,4 +1,4 @@
-package com.example.formixins;
+package org.daylight.formixins;
 
 public interface ICommandStateHolder {
     boolean isLanCommandsReturned$isOpenedToLanWithCommandsForOtherPlayers();

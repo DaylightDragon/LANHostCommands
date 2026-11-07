@@ -1,10 +1,9 @@
-package com.example.mixin;
+package org.daylight.mixin;
 
-import com.example.formixins.ICommandStateHolder;
+import org.daylight.formixins.ICommandStateHolder;
 import net.minecraft.client.server.IntegratedServer;
 import net.minecraft.world.level.storage.WorldData;
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;

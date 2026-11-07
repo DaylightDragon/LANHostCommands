@@ -1,31 +1,32 @@
 modLoader = "javafml"
 loaderVersion = "[1,)"
-#issueTrackerURL = ""
-license = "Insert License Here"
+issueTrackerURL = "https://github.com/DaylightDragon/LANCommandsReturned/issues/"
+license = "MIT"
 
 [[mods]]
-modId = "example_mod"
+modId = "lan_commands_returned"
 version = "${version}"
-displayName = "Example Mod"
-authors = "Me!"
+displayName = "LAN Commands Returned"
+authors = "DaylightDragon"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+Makes it so you (the host) have the same command permissions as "Other Players" in the "Open to LAN" menu.
+Basically, you can now quickly get command permissions in singleplayer for one session just as before.
 '''
-#logoFile = ""
+iconFile = "assets/lan_commands_returned/icon.png"
 
-[[dependencies.example_mod]]
+[[dependencies.lan_commands_returned]]
 modId = "neoforge"
 type = "required"
 versionRange = "[26.2.0,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.example_mod]]
+[[dependencies.lan_commands_returned]]
 modId = "minecraft"
 type = "required"
-versionRange = "[26.2,)"
+versionRange = "[26.2, 26.3)"
 ordering = "NONE"
 side = "BOTH"
 
 [[mixins]]
-config = "example_mod.mixins.json"
+config = "lan_commands_returned.mixins.json"

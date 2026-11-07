@@ -1,37 +1,35 @@
 {
   "schemaVersion": 1,
-  "id": "example_mod",
+  "id": "lan_commands_returned",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "LAN Commands Returned",
+  "description": "Makes it so you (the host) have the same command permissions as \"Other Players\" in the \"Open to LAN\" menu.\nBasically, you can now quickly get command permissions in singleplayer for one session just as before.",
   "authors": [
-    "Me!"
+    "DaylightDragon"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/DaylightDragon/LANCommandsReturned"
   },
-  "license": "CC0-1.0",
-  "icon": "assets/example_mod/icon.png",
+  "license": "MIT",
+  "icon": "assets/lan_commands_returned/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.example.fabric.ExampleModFabric"
+      "org.daylight.fabric.LanCommandsReturnedFabric"
     ],
     "client": [
-      "com.example.fabric.client.ExampleModFabricClient"
+      "org.daylight.fabric.client.LanCommandsReturnedClient"
     ]
   },
   "mixins": [
-    "example_mod.mixins.json"
+    "lan_commands_returned.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.20.1",
+    "fabricloader": "*",
     "minecraft": "~26.2",
-    "java": ">=25",
-    "fabric-api": "*"
+    "java": ">=25"
   },
   "suggests": {
-    "another-mod": "*"
+
   }
 }

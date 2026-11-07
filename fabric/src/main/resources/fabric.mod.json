@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "lan_commands_returned",
+  "id": "lanhostcommands",
   "version": "${version}",
-  "name": "LAN Commands Returned",
+  "name": "LAN Host Commands",
   "description": "Makes it so you (the host) have the same command permissions as \"Other Players\" in the \"Open to LAN\" menu.\nBasically, you can now quickly get command permissions in singleplayer for one session just as before.",
   "authors": [
     "DaylightDragon"
   ],
   "contact": {
-    "sources": "https://github.com/DaylightDragon/LANCommandsReturned"
+    "sources": "https://github.com/DaylightDragon/LANHostCommands"
   },
   "license": "MIT",
-  "icon": "assets/lan_commands_returned/icon.png",
+  "icon": "assets/lanhostcommands/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "org.daylight.fabric.LanCommandsReturnedFabric"
+      "org.daylight.fabric.LanHostCommandsFabric"
     ],
     "client": [
-      "org.daylight.fabric.client.LanCommandsReturnedClient"
+      "org.daylight.fabric.client.LanHostCommandsFabricClient"
     ]
   },
   "mixins": [
-    "lan_commands_returned.mixins.json"
+    "lanhostcommands.mixins.json"
   ],
   "depends": {
     "fabricloader": "*",

@@ -1,27 +1,27 @@
 modLoader = "javafml"
 loaderVersion = "[1,)"
-issueTrackerURL = "https://github.com/DaylightDragon/LANCommandsReturned/issues/"
+issueTrackerURL = "https://github.com/DaylightDragon/LANHostCommands/issues/"
 license = "MIT"
 
 [[mods]]
-modId = "lan_commands_returned"
+modId = "lanhostcommands"
 version = "${version}"
-displayName = "LAN Commands Returned"
+displayName = "LAN Host Commands"
 authors = "DaylightDragon"
 description = '''
 Makes it so you (the host) have the same command permissions as "Other Players" in the "Open to LAN" menu.
 Basically, you can now quickly get command permissions in singleplayer for one session just as before.
 '''
-iconFile = "assets/lan_commands_returned/icon.png"
+iconFile = "assets/lanhostcommands/icon.png"
 
-[[dependencies.lan_commands_returned]]
+[[dependencies.lanhostcommands]]
 modId = "neoforge"
 type = "required"
 versionRange = "[26.2.0,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.lan_commands_returned]]
+[[dependencies.lanhostcommands]]
 modId = "minecraft"
 type = "required"
 versionRange = "[26.2, 26.3)"
@@ -29,4 +29,4 @@ ordering = "NONE"
 side = "BOTH"
 
 [[mixins]]
-config = "lan_commands_returned.mixins.json"
+config = "lanhostcommands.mixins.json"

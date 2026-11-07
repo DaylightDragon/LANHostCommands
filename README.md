@@ -1,4 +1,4 @@
-# LAN Commands Returned
+# LAN Host Commands
 
 Or, in other words, "Letting you use commands too".
 

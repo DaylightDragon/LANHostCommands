@@ -7,7 +7,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'LANCommandsReturned'
+rootProject.name = 'LANHostCommands'
 
 include 'common'
 include 'fabric'
